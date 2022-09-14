@@ -6,6 +6,6 @@
   passTerminal, writeTerminal ve sql.py programları ana tanıma programının kesintiye uğramaması adına Fire&Forget tarzı bir yaklaşım benimseyerek, veritabanına iletilen bilginin başarılı/başarısız geri dönüşünü beklemeden sadece iletim yapan bir programlar zinciridir.
   sql.py programında bulunan veri tabanı bilgileri güvenlik amacıyla silinmiştir.
   
-  Hız koridoru sisteminde, giriş ve çıkış olmak üzere tek bir fark hariç birbirinin aynısı iki sistem bulunmaktadır. Çıkış sisteminin giriş sisteminden tek farkı, ekstra olarak aradaki mesafe bilgisini de veritabanına göndermektedir. 
+  Hız koridoru sisteminde, giriş ve çıkış olmak üzere tek bir fark hariç birbirinin aynısı iki sistem (Nvidia Jetson Nano w/ IMX219-77 Camera and WiFi-Bluetooth) bulunmaktadır. Çıkış sisteminin giriş sisteminden tek farkı, ekstra olarak aradaki mesafe bilgisini de veritabanına göndermektedir. 
   
   Programın detaylı kullanımı ultimateALPR-SDK sayfasında açıklanmıştır.
